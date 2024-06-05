@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="ar">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,7 +10,38 @@
     <!-- <link href="public/css/font-awesome.min.css" rel="stylesheet"> -->
     <link href="public/css/style.css" rel="stylesheet">
 
-    <title>Educational Bootstrap 5 Login Page Website Tampalte</title>
+    <title>صفحة تسجيل دخول تعليمية باستخدام Bootstrap 5</title>
+    <style>
+        body {
+            direction: rtl;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background: url('path/to/your/background-image.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+        .logo {
+            text-align: center;
+        }
+        .ceo-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 5px; /* تم تقليل المسافة من الأعلى */
+            text-align: center;
+        }
+        .form-02-main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+        .form-03-main {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
   </head>
   <body>
     <section class="form-02-main">
@@ -20,33 +51,34 @@
             <div class="_lk_de">
               <div class="form-03-main">
                 <div class="logo">
-                  <img src="public/images/user.png">
+                  <img src="public/images/user.png" alt="أيقونة المستخدم">
+                  <div class="ceo-title">CEO</div>
                 </div>
                 <div class="form-group">
-                  <input type="email" name="email" class="form-control _ge_de_ol" type="text" placeholder="Enter Email" required="" aria-required="true">
+                  <input type="email" name="email" class="form-control _ge_de_ol" placeholder="أدخل البريد الإلكتروني" required="" aria-required="true">
                 </div>
 
                 <div class="form-group">
-                  <input type="password" name="password" class="form-control _ge_de_ol" type="text" placeholder="Enter Password" required="" aria-required="true">
+                  <input type="password" name="password" class="form-control _ge_de_ol" placeholder="أدخل كلمة المرور" required="" aria-required="true">
                 </div>
 
                 <div class="checkbox form-group">
                   <!-- <div class="form-check"> -->
                     <!-- <input class="form-check-input" type="checkbox" value="" id=""> -->
                     <!-- <label class="form-check-label" for="">
-                      Remember me
+                      تذكرني
                     </label> -->
                   <!-- </div> -->
-                  <!-- <a href="#">Forgot Password</a> -->
+                  <!-- <a href="#">نسيت كلمة المرور؟</a> -->
                 </div>
 
                 <div class="form-group">
                   <div class="_btn_04">
-                    <a href="#">Login</a>
+                    <a href="#">تسجيل الدخول</a>
                   </div>
                 </div>
 
-                <!-- <div class="form-group nm_lk"><p>Or Login With</p></div> -->
+                <!-- <div class="form-group nm_lk"><p>أو تسجيل الدخول باستخدام</p></div> -->
 
                 <div class="form-group pt-0">
                   <div class="_social_04">
